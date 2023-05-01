@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="back">
+    <h1><center>Temperature Conversion</center></h1>
+    <br><br><br><br><br>
+        <div class="big">
+            <form>
+                <div id="c">
+                    <label for="Celsius" style="font-size:30px">Celsius</label>
+                    <input type="number" name="celsius" id="celsius" placeholder=&#8451 oninput="CtoF()" oninput="CtoK()">
+                </div>
+                <br><br><br><br><br>
+                <div id="f">
+                    <label for="Fahrenheit" style="font-size:30px">Fahrenheit</label>
+                    <input type="number" name="fahrenheit" id="fahrenheit" placeholder=&#8457 oninput="FtoC()" oninput="FtoK()">
+                </div>
+                <br><br><br><br><br><br><br>
+                <div id="k">
+                    <label for="Kelvin" style="font-size:30px">Kelvin</label>
+                    <input type="number" name="kelvin" id="kelvin" placeholder="K" oninput="KtoC()" oninput="KtoF()">
+                </div>
+            
+            </form>
+        </div>
+        <script src="index.js"></script>
+        <br><br><br><br><br><br><br>
+        <p><center>Designed by:<a href="https://www.linkedin.com/in/hima-sri-tethala-62836323a/">Hima Sri Tethala</a></center></p>
+</body>
+</html>

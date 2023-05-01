@@ -1,0 +1,18 @@
+#back
+{
+    background-color:lightblue;
+    background-image:url("temperatureconverter.jpg");
+background-repeat:no-repeat;
+background-position:center;
+}
+#c{
+    padding-left: 360px;
+
+}
+#f{
+    text-align: right;
+    padding-right: 360px;
+}
+#k{
+    padding-left: 360px;
+}
